@@ -53,3 +53,34 @@ nav{
     font-size: 20px;
     margin-left:60px;
 }
+
+/* Calulator area */
+
+.calculator{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator::before{
+    content: "";
+    background: url("./images/c-mo-saber-las-caracter-sticas-y-especificaciones-de-mi-celular-con-el-imei-o-los-ajustes\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.calc-container{
+
+
+}
+
+.calc-header{
+    
+}
