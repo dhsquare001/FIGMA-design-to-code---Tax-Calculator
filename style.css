@@ -24,6 +24,7 @@ nav{
     top: 0;
     z-index: 5;
     overflow: hidden;
+    border: 5px solid blueviolet;
 }
 
 .navbar-container{
@@ -45,6 +46,7 @@ nav{
     display: flex;
     justify-content: space-between;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 .navbar-links a{
@@ -54,7 +56,7 @@ nav{
     margin-left:60px;
 }
 
-/* Calulator area */
+/* Calculator area */
 
 .calculator{
     width: 100%;
@@ -70,17 +72,126 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: absolute;
+    position:absolute;
     height: 100%;
     width: 100%;
     z-index: -1;
 }
 
 .calc-container{
-
-
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 200px 0;
 }
 
 .calc-header{
-    
+    color: rgba(2, 0, 116, 1);
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.calc-para{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.calc-input{
+    display: flex;
+    align-items: center;
+}
+
+.calc-input input{
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 60px;
+    padding-left: 20px;
+    outline: none;
+    width: 240px;
+}
+
+.calc-input select{
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 60px;
+    padding: 0 20px;
+    width: 240px;
+    color: gray;
+    margin: 0 60px;
+    outline: none;
+}
+
+.calc-input button{
+    background: rgba(2, 0, 116, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 60px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 240px;
+    font-weight: 600;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.calculator-terms{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+
+/* salary tax slabs area */
+
+
+.tax-slabs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: RGB(247, 247, 247);
+}
+
+.tax-slabs-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1337px;
+}
+
+.tax-slabs-container h1{
+    margin: 55px 0 0 0;
+    color: rgba(124, 0, 112, 1);
+    font-size: 25px;
+    text-align: center;
+}
+
+.tax-slabs-content{
+    width: 100%;
+    margin: 38px 0 70px 0;
+}
+
+.tax-slabs-para{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.tax-slabs-list {
+    list-style: none;
+}
+
+.tax-slabs-list li::before {
+    content: "\2022";
+    color: rgba(2, 0, 116, 1);
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
