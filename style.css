@@ -400,7 +400,6 @@ nav{
     width: 85%;
     max-width: 1337px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -417,21 +416,32 @@ nav{
 }
 
 .contact-content-left h1{
-    width: 70%;
-    font-size: 25px;
-    margin-bottom: 20px;
-    text-align: left;
+    width: 257px;
+    height: 81px;
+    left: 143px;
+    top: 1836px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
     color: rgba(124, 0, 112, 1);
 }
 
 .contact-content-left p{
-    width: 70%;
-    font-size: 18px;
+    width: 405px;
+    height: 108px;
+    left: 143px;
+    top: 1943px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    align-items: center;
 }
 
 .contact-content-right{
+    width: 460px;
     height: 440px;
-    width: 420px;
+    left: 658px;
+    top: 1723px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -482,7 +492,7 @@ nav{
 }
 
 
-/* footer area */
+/* about us area */
 
 
 .about-us{
@@ -511,7 +521,26 @@ nav{
 }
 
 .about-us-para p{
-    text-align: center;
+    width: 1311px;
+    height: 196px;
+    left: 67px;
+    top: 2385px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 36px;
+    /* or 164% */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-indent: 1px;
+
+    color: #000000;
+    
+    text-align: left;
     font-weight: 500;
     line-height: 25px;
 }
